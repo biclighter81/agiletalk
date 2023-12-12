@@ -1,0 +1,26 @@
+{
+  "name": "agiletalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p . && tsc-alias",
+    "start": "node dist/main.js",
+    "dev": "nodemon src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.2.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "inversify": "^6.0.2",
+    "inversify-express-utils": "^6.4.6",
+    "redis": "^4.6.11",
+    "reflect-metadata": "^0.1.14",
+    "socket.io": "^4.7.2"
+  }
+}
